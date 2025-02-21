@@ -1,0 +1,2 @@
+# React 19 useEffect Cleanup with setInterval
+This example demonstrates a common error when using `setInterval` within a React 19 `useEffect` hook.  Forgetting to provide a cleanup function to `clearInterval` results in a memory leak, as the interval continues to run even after the component unmounts.  The solution shows the correct usage with cleanup.
